@@ -132,8 +132,10 @@ let _ = assert (prefixes [1;2;3;4] = [[1]; [1;2]; [1;2;3]; [1;2;3;4]])
 
 let cons (x: 'a) (y: 'a list) : 'a list =
   x :: y 
+  
 let zip (xs: 'a list) (ys: 'a list) : 'a list =
   foldr cons xs ys
+  
 let flatten (xss:'a list list) : 'a list =
   foldr zip xss []
 
