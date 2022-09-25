@@ -1,4 +1,4 @@
-# Mapping-Functions
+# Mapping-and-Expressions
 
 Most recent assignment for COS326 (Functional Programming)
 
